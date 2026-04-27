@@ -1,13 +1,20 @@
-import java.util.ArrayList;
+import java.time.LocalDate;
 
 public class MedicalRecord {
-    private String medicalRecordID;
-    private String vaccinationStatus;
-    private String illness;
-    private String illnessType;
-    private boolean quarantine;
-    private String quarantineDate;
-    private ArrayList<MedicalRecord> vaccinationRecords;
-    private ArrayList<MedicalRecord> illnessRecords;
-    private ArrayList<MedicalRecord> quarantineRecords;
+
+    private String recordID;
+    private LocalDate date;
+    private RecordType type;
+    private String description;
+    private String vetName;
+
+    public MedicalRecord(String recordID, RecordType type, String description, String vetName) {
+        this.recordID = recordID;
+        this.date = LocalDate.now();
+        this.type = type;
+        this.description = description;
+        this.vetName = vetName;
+    }
+
+    // getters & setters
 }
