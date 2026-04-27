@@ -21,25 +21,6 @@
 
 ---
 
-## 🏗️ Project Structure
-
-```
-src/
-├── Pet.java               # Abstract base class
-├── Dog.java
-├── Cat.java
-├── GuineaPig.java
-├── Rabbit.java
-├── Owner.java
-├── MedicalRecord.java
-├── AdoptionRecord.java
-├── Shelter.java           # Core data manager
-├── ExportService.java     # File export logic
-└── Main.java              # Swing GUI entry point
-```
-
----
-
 ## 🚀 Getting Started
 
 ### Requirements
@@ -85,25 +66,7 @@ Adoption records are **never deleted** from the system. Animals are moved to an 
 
 ---
 
-## 🗺️ Roadmap
-
-- [x] Core data model
-- [x] Swing GUI base
-- [ ] Dashboard panel
-- [ ] Intake form UI
-- [ ] Health card UI
-- [ ] Adoption flow UI
-- [ ] Export to `.txt`
-- [ ] Data persistence (JSON / serialization)
-
----
-
 ## 👤 Author
 
-Made as a school project.
+Myroslav Tsykunov
 
----
-
-## 📄 License
-
-MIT
