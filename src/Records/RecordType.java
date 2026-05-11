@@ -1,3 +1,5 @@
+package Records;
+
 public enum RecordType {
     CHECKUP, VACCINATION, DEWORMING, QUARANTINE, BEHAVIORAL_NOTE
 }

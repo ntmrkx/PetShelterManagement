@@ -1,5 +1,9 @@
+package Base;
+
+import Records.*;
 import java.util.ArrayList;
 import java.util.List;
+import UI.*;
 
 public class Shelter {
     private String shelterName;
@@ -71,4 +75,16 @@ public class Shelter {
     public ArrayList<Pet> getActivePets() { return activePets; }
     public ArrayList<AdoptionRecord> getAdoptionArchive() { return adoptionArchive; }
     public String getShelterName() { return shelterName; }
+
+    // app starts
+    public void load() {
+        activePets = DataManager.loadPets();
+        adoptionArchive = DataManager.loadAdoptions();
+    }
+
+    // any changes
+    public void save() {
+        DataManager.savePets(activePets);
+        DataManager.saveAdoptions(adoptionArchive);
+    }
 }

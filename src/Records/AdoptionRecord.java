@@ -1,4 +1,7 @@
+package Records;
+
 import java.time.LocalDate;
+import Base.*;
 
 public class AdoptionRecord {
     private String adoptionID;

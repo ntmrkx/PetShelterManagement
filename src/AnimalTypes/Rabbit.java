@@ -1,3 +1,6 @@
+package AnimalTypes;
+import Base.*;
+
 public class Rabbit extends Pet {
     private String earType;
     private boolean isNeutered;
@@ -7,5 +10,5 @@ public class Rabbit extends Pet {
     }
 
     @Override
-    public String getSpecies() { return "Rabbit"; }
+    public String getSpecies() { return "AnimalTypes.Rabbit"; }
 }

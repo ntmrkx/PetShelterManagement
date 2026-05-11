@@ -1,3 +1,6 @@
+package AnimalTypes;
+import Base.*;
+
 public class Dog extends Pet {
     private String breed;
     private boolean isTrained;
@@ -9,7 +12,7 @@ public class Dog extends Pet {
     }
 
     @Override
-    public String getSpecies() { return "Dog"; }
+    public String getSpecies() { return "AnimalTypes.Dog"; }
 
     // getters & setters
 }

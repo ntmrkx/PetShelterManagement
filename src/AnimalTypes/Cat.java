@@ -1,3 +1,6 @@
+package AnimalTypes;
+import Base.*;
+
 public class Cat extends Pet {
     private String breed;
     private boolean isIndoor;
@@ -7,5 +10,5 @@ public class Cat extends Pet {
     }
 
     @Override
-    public String getSpecies() { return "Cat"; }
+    public String getSpecies() { return "AnimalTypes.Cat"; }
 }

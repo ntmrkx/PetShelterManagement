@@ -1,3 +1,5 @@
+package Base;
+
 public class Owner {
     private String name;
     private String email;

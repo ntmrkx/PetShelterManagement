@@ -1,3 +1,6 @@
+package AnimalTypes;
+import Base.*;
+
 public class GuineaPig extends Pet {
     private String furType;
 

@@ -1,3 +1,6 @@
+package Base;
+
+import Records.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -17,7 +20,7 @@ public abstract class Pet {
 
     // identification
     private String description;
-    private String identificationMarks;  // fix: was IdentificationMarks
+    private String identificationMarks;
     private String chipNumber;
     private String photoPath;            // added
 
