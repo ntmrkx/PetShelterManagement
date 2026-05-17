@@ -68,5 +68,5 @@ Adoption records are **never deleted** from the system. Animals are moved to an 
 
 ## 👤 Author
 
-Myroslav Tsykunov
-
+Myroslav Tsykunov🇷🇺
+made with love
